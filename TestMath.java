@@ -19,7 +19,7 @@ public class TestMath {
 	    @Test
 	    public void testPositiveNegativeAddition() {
 		m = new Math(-1,2);
-	    	assertEquals(m.add(),2); //poniendo -1 y 2
+	    	assertEquals(m.add(),1); //poniendo -1 y 2
 	    	
 	    }
 
@@ -27,7 +27,7 @@ public class TestMath {
 	    @Test
 	    public void testNegativePositiveAddition() {
 		m = new Math(1,-2);
-	    	assertEquals(m.add(),1); //poniendo 1 y -2
+	    	assertEquals(m.add(),-1); //poniendo 1 y -2
 	    }
 
 
