@@ -10,5 +10,5 @@ La ruta indica en que carpeta busca el sistema el jar de junit. Por otro lado, e
 
 Ejecutamos la siguiente sentencia: java -cp "ruta de la carpeta"/*:. org.junit.runner.JUnitCore JunitTestSuite
 
-Una vez ha realizado esto, se ejecutarán los test.
+Una vez se ha realizado esto, se ejecutarán los test.
 
