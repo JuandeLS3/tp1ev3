@@ -7,16 +7,18 @@ public class Person {
  private int weight;
  private String eyeColor;
  private String gender;
+ private String favoriteSport;
+
  public Person() {
-  // Nothing to do...
  }
- public Person(String name, int age, int height, int weight, String eyeColor, String gender){
+ public Person(String name, int age, int height, int weight, String eyeColor, String gender, String favoriteSport){
    this.name = name;
    this.age = age;
    this.height = height;
    this.weight = weight;
    this.eyeColor = eyeColor;
    this.gender = gender;
+   this.favoriteSport = favoriteSport;
   }
   public int getWeight() {
      return weight;
@@ -35,6 +37,9 @@ public class Person {
   }
   public String getEyeColor() {
      return eyeColor;
+  }
+  public String getFavoriteSport() {
+     return favoriteSport;
   }
 }
 
